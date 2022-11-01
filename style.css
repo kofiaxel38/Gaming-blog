@@ -1,0 +1,193 @@
+.container {
+  width: 1440px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.nav {
+  display: flex;
+  color: gray;
+  padding: 10px;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.nav p:hover {
+  cursor: pointer;
+
+  color: black;
+  /* border-radius: 13px; */
+  height: 30px;
+  width: 60px;
+  transition: 50ms ease-out;
+}
+.midcontainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.left img {
+  height: 250px;
+  width: 800px;
+  border: 1px solid grey;
+}
+.left {
+  margin-left: 100px;
+  left: 200px;
+  position: relative;
+  margin: 30px;
+}
+.right {
+  /* border: 10px solid white; */
+  /* box-shadow: 1px 1px 20px 1px gray; */
+  background-color: hsl(240, 100%, 5%);
+  height: 480px;
+  width: auto;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  color: white;
+  border: 1px solid grey;
+  overflow-y: scroll;
+}
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.rightlol {
+  margin: 20px;
+  /* overflow-y: scroll; */
+}
+.rightlol p {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.rightlol h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: yellow; */
+  width: 800px;
+}
+.container2 h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  /* padding: 10px; */
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+}
+.bottom {
+  margin-left: 100px;
+  left: 200px;
+  position: relative;
+  margin: 30px;
+  /* background-color: yellow; */
+  width: 1250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.child3cont {
+  height: 254px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.child3 img {
+  height: 150px;
+  width: auto;
+  border-color: white;
+  border: 1px solid grey;
+}
+.child3lol {
+  position: relative;
+  right: 40px;
+}
+.child4 img {
+  height: 150px;
+  width: auto;
+  border: 1px solid grey;
+}
+.child5 img {
+  height: 150px;
+  width: auto;
+  border: 1px solid grey;
+}
+.child4 {
+  display: flex;
+}
+.child5 {
+  display: flex;
+  margin-left: 30px;
+}
+.child5lol {
+  position: relative;
+  left: 30px;
+}
+.child4lol {
+  position: relative;
+  left: 30px;
+}
+.bottom h2 {
+  color: grey;
+  opacity: 60%;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+.text {
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 50;
+  font-size: 15px;
+}
+.child2 p {
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 50;
+  font-size: 15px;
+}
+button {
+  color: white;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  height: 40px;
+  width: 140px;
+  font-family: sans-serif;
+  cursor: pointer;
+  margin-top: 20px;
+}
+button:hover {
+  color: hsl(5, 85%, 63%);
+  background-color: white;
+  transition: 50ms ease-out;
+  box-shadow: 1px 1px 20px 1px gray;
+}
+.right h1 {
+  color: hsl(35, 77%, 62%);
+}
+.parent h1 {
+  margin-left: 230px;
+  font-family: "Times New Roman";
+  font-weight: 1000;
+}
+.text2 {
+  font-family: "Inter", sans-serif;
+  color: hsl(240, 100%, 5%);
+}
+.border1 {
+  border: 1px solid grey;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.border2 {
+  border: 1px solid grey;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
