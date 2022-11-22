@@ -191,3 +191,102 @@ button:hover {
   border-right: none;
   border-left: none;
 }
+.bars {
+  display: none;
+}
+.container2 .right {
+  display: none;
+}
+@media (max-width: 500px) {
+  body {
+  }
+  .nav {
+    background-color: gray;
+    position: absolute;
+    inset: 0 0 0 40%;
+
+    flex-direction: column;
+
+    height: 100vh;
+
+    justify-content: center;
+
+    font-size: x-large;
+
+    z-index: 97;
+    transition: 0.5s all ease-in;
+    overflow: hidden;
+    left: 400px;
+    display: none;
+  }
+  .show-nav {
+    left: 0;
+    transition: 0.5s all ease-in-out;
+  }
+  .bars {
+    display: block;
+    position: absolute;
+    left: 340px;
+    font-size: 2rem;
+    z-index: 99;
+  }
+  .w {
+    position: absolute;
+    right: 350px;
+    top: -20px;
+    z-index: 99;
+  }
+  .nav p {
+    z-index: 99;
+    color: black;
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container2 .right {
+    display: block;
+    background-color: hsl(240, 100%, 5%);
+    height: 480px;
+    width: auto;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    color: white;
+    border: 1px solid grey;
+    overflow-y: scroll;
+  }
+  .right {
+    display: none;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+  }
+  .child5 {
+    margin: 0;
+  }
+  .child3cont {
+    height: 160px;
+  }
+  .container {
+    width: 390px;
+  }
+  .midcontainer {
+    width: 390px;
+  }
+  body {
+    width: 375px;
+  }
+  .container {
+    width: 375px;
+  }
+  .left {
+    margin-left: 0px;
+    left: 0px;
+    position: relative;
+    margin: 0px;
+  }
+}
